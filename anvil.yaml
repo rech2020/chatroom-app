@@ -16,11 +16,14 @@ startup_form: Form1
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}
 db_schema:
-  users:
+  user:
     client: none
     server: full
     columns:
     - name: ID
       admin_ui: {width: 200, order: 0}
       type: number
-    title: Users
+    - name: username
+      admin_ui: {width: 200, order: 1}
+      type: string
+    title: user
