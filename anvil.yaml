@@ -15,4 +15,12 @@ metadata: {logo_img: 'asset:wave.png', description: coming soon, title: chatroom
 startup_form: Form1
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}
-db_schema: {}
+db_schema:
+  users:
+    client: none
+    server: full
+    columns:
+    - name: ID
+      admin_ui: {width: 200, order: 0}
+      type: number
+    title: Users
