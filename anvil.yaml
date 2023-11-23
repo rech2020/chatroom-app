@@ -26,4 +26,7 @@ db_schema:
     - name: username
       admin_ui: {width: 200, order: 1}
       type: string
+    - name: IsGuest
+      admin_ui: {width: 200, order: 2}
+      type: bool
     title: user
