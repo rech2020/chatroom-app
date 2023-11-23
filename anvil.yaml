@@ -2,12 +2,12 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-package_name: chat_room_app
+package_name: chatroom_app
 allow_embedding: false
-name: chat room app
+name: chatroom app
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-metadata: {logo_img: 'asset:wave.png'}
+metadata: {logo_img: 'asset:wave.png', description: coming soon, title: chatroom app}
 startup_form: Form1
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}

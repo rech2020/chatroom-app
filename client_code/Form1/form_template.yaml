@@ -12,7 +12,9 @@ components:
   type: ColumnPanel
   layout_properties: {slot: default}
   components:
-  - name: label_1
-    properties: {}
-    type: Label
-    layout_properties: {grid_position: 'OFYKJA,EHBVZB'}
+  - name: rich_text_1
+    properties: {content: '# chatroom app
+
+        #### coming soon', align: center}
+    type: RichText
+    layout_properties: {grid_position: 'IZVDGI,LJPAFI'}
